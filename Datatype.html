@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Testing Data Type</h2>
+    <script>
+        document.write("<br><h1>Premitive Data Types</h1>")
+        let a = null;
+        let b = 365
+        let c = true 
+        let d = BigInt("67") + BigInt("3"); // addition for 67 + 3
+        let e = "Jay Shree Ram"
+        let f = Symbol("symbol")
+        let g = undefined
+
+        // document.write("<h1>Hello"+ "<br>"); // allowed 
+        document.write(a+ " = null<br>");
+        document.write(b+ " = Number <br>");
+        document.write(c+ " = Boolean<br>");
+        document.write(d+ " = BigInt<br>");
+        document.write(e+ " = String<br>");
+        document.write(typeof d + " = typeof use to check the Data Type<br>");
+        
+        document.write("<br><h1>Premitive Data Types</h1>")
+        document.write("<h2>That's called to Object</h2>")
+        // object making
+        const myitem = {
+            "Ravi" : true,
+            "Aelish" : false,
+            "Rohit":a, // a assign to null
+            "Hitesh" : 78,
+            
+        }
+        document.write(myitem["Ravi"] + "<br>");
+        document.write(myitem["Aelish"] + "<br>");
+        document.write(myitem["Hitesh"] + "<br>");
+        document.write(myitem["Rohit"] + "<br>");
+
+        
+        
+        document.write(f+ " = Symbol<br>");
+        document.write(g+ " = Undefined<br>");
+        
+        // Console log used
+        console.log(a, b, c, d, e, f, g);
+
+
+    </script>
+</body>
+</html>

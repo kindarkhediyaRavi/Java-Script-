@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // -- q1
+        let p = "Maruti";
+        let s = 89;
+        document.write(p + s);
+
+        // --q2
+        document.write("<br>Length of 'p': " + p.length);
+        document.write( "<br>Check data type " +typeof (p + s) )
+
+        // --q3
+        const company = {
+            emp1 : "Ravi",
+            emp2 : p,
+            emp3 : s,
+            emp4 : "jay",
+            emp5 : "sameer",
+        }
+        document.write("<br>" + company["emp1"]);
+        document.write("<br>" + company["emp2"]);
+        document.write("<br>" + company["emp3"]);
+
+        // --q4
+        // object ma kyarey value ane string assign thati nathi
+        // company = "Hello";// that is not worked
+        company['name'] = "Jayesh";  // valid
+        document.write("<br>" + company['name']);  //same result
+        document.write("<br>" + company.name);
+    </script>
+</body>
+</html>
