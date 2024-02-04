@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let name = [ "Sagar", "Bipin", "Mayur", "Pradip", "Ravi", "Chandresh", "Ashish"]
+        let ex = [1, 2, 3, "name ", true, 23.32, " 23" ]
+
+        document.write(name)
+        document.write("<br><br>")
+        document.write(name[4])
+        document.write("<br><br>")
+        document.write(name[5])
+        document.write("<br><br>")
+        document.write(ex)
+        
+        
+        // array Methods
+        document.write("<br><br><======Arrays Methods =====> ")
+        document.write("<br><br>")
+        document.write("Join : " + ex.join(" , "))
+        document.write("<br><br>")
+        document.write("Type of : " + typeof ex )
+        document.write("<br><br>")
+        let t = ex.pop()
+        document.write(" Pop using variable : " + ex, t)
+        document.write("<br><br>")
+        document.write(" Pop : " + ex.pop())
+        document.write("<br><br>")
+        document.write(" Push : " + ex.push("Gopal"))
+        document.write("<br><br>After Push : ")
+        document.write( ex)
+        
+        document.write("<br><br>")
+        ex.shift()
+        document.write(" Shift use to remove first element of array : " + ex)
+        document.write("<br><br>")
+        ex.unshift(90);
+        document.write(" Unshift use to add first element of array : " + ex)
+
+
+
+        
+
+
+        
+        
+
+    </script>
+</body>
+</html>
